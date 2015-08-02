@@ -1,4 +1,4 @@
-### 一个简单的可视化工具，将Android布局文件中的View属性批量转换为style.xml中的item标签
+### 一个简单的可视化工具，将Android布局文件中的View属性批量转换为styles.xml中的item标签
 - 例如：`android:layout_width="wrap_content"` 转换为 `<item name="android:layout_width">wrap_content</item>`
 
 ### 使用方式：
