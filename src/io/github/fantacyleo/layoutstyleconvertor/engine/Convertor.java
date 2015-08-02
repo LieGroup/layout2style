@@ -9,7 +9,7 @@ public class Convertor {
 	 * @return
 	 */
 	public static String Layout2Style(String layoutStr) {
-		String[] keyValuePair = layoutStr.split("=");
+		String[] keyValuePair = layoutStr.trim().split("=");
 		StringBuilder sb = new StringBuilder();
 		sb.append("<item name=\"");
 		sb.append(keyValuePair[0]);
